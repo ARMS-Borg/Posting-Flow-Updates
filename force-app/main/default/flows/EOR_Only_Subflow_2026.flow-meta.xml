@@ -5,8 +5,8 @@
     <assignments>
         <name>Add_to_Collection_to_Be_Created</name>
         <label>Add to Collection to Be Created</label>
-        <locationX>1860</locationX>
-        <locationY>8738</locationY>
+        <locationX>1128</locationX>
+        <locationY>9986</locationY>
         <assignmentItems>
             <assignToReference>CreateLinesPayments</assignToReference>
             <operator>Add</operator>
@@ -21,8 +21,8 @@
     <assignments>
         <name>Add_to_Collection_to_Be_Created_0</name>
         <label>Add to Collection to Be Created</label>
-        <locationX>1556</locationX>
-        <locationY>8738</locationY>
+        <locationX>824</locationX>
+        <locationY>9986</locationY>
         <assignmentItems>
             <assignToReference>CreateLinesPayments</assignToReference>
             <operator>Add</operator>
@@ -37,8 +37,8 @@
     <assignments>
         <name>Add_to_Collection_to_Be_Created_0_0</name>
         <label>Add to Collection to Be Created</label>
-        <locationX>2164</locationX>
-        <locationY>8738</locationY>
+        <locationX>1432</locationX>
+        <locationY>9986</locationY>
         <assignmentItems>
             <assignToReference>CreateLinesPayments</assignToReference>
             <operator>Add</operator>
@@ -53,8 +53,8 @@
     <assignments>
         <name>Assign_Fields_to_Object</name>
         <label>Assign Fields to Object</label>
-        <locationX>1860</locationX>
-        <locationY>8630</locationY>
+        <locationX>1128</locationX>
+        <locationY>9878</locationY>
         <assignmentItems>
             <assignToReference>IncomingLinesVarSingle.Amount_Paid__c</assignToReference>
             <operator>Assign</operator>
@@ -83,8 +83,8 @@
     <assignments>
         <name>Assign_Fields_to_Object_0</name>
         <label>Assign Fields to Object</label>
-        <locationX>1978</locationX>
-        <locationY>5858</locationY>
+        <locationX>1128</locationX>
+        <locationY>7406</locationY>
         <assignmentItems>
             <assignToReference>ExpectedPayment</assignToReference>
             <operator>Add</operator>
@@ -106,8 +106,8 @@
     <assignments>
         <name>Assign_Fields_to_Object_0_0</name>
         <label>Assign Fields to Object</label>
-        <locationX>1556</locationX>
-        <locationY>8630</locationY>
+        <locationX>824</locationX>
+        <locationY>9878</locationY>
         <assignmentItems>
             <assignToReference>IncomingLinesVarSingle.Amount_Paid__c</assignToReference>
             <operator>Assign</operator>
@@ -136,8 +136,8 @@
     <assignments>
         <name>Assign_Fields_to_Object_0_0_0</name>
         <label>Assign Fields to Object</label>
-        <locationX>2164</locationX>
-        <locationY>8630</locationY>
+        <locationX>1432</locationX>
+        <locationY>9878</locationY>
         <assignmentItems>
             <assignToReference>IncomingLinesVarSingle.Incoming_Check_Payment__c</assignToReference>
             <operator>Assign</operator>
@@ -159,8 +159,8 @@
     <assignments>
         <name>assign_ICPid</name>
         <label>assign ICPid</label>
-        <locationX>1396</locationX>
-        <locationY>8124</locationY>
+        <locationX>1040</locationX>
+        <locationY>9446</locationY>
         <assignmentItems>
             <assignToReference>ICPid</assignToReference>
             <operator>Assign</operator>
@@ -175,8 +175,8 @@
     <assignments>
         <name>assign_ICPid_0</name>
         <label>assign ICPid</label>
-        <locationX>1376</locationX>
-        <locationY>2090</locationY>
+        <locationX>633</locationX>
+        <locationY>2246</locationY>
         <assignmentItems>
             <assignToReference>ICPid</assignToReference>
             <operator>Assign</operator>
@@ -191,8 +191,8 @@
     <assignments>
         <name>AssignFinalTAsk</name>
         <label>AssignFinalTAsk</label>
-        <locationX>1686</locationX>
-        <locationY>9960</locationY>
+        <locationX>1238</locationX>
+        <locationY>11342</locationY>
         <assignmentItems>
             <assignToReference>taskdescriptionfinal2</assignToReference>
             <operator>Add</operator>
@@ -214,8 +214,8 @@
     <assignments>
         <name>AssignFinalTAsk_0</name>
         <label>AssignFinalTAsk</label>
-        <locationX>808</locationX>
-        <locationY>4731</locationY>
+        <locationX>391</locationX>
+        <locationY>4958</locationY>
         <assignmentItems>
             <assignToReference>taskdescriptionfinal2</assignToReference>
             <operator>Add</operator>
@@ -237,8 +237,8 @@
     <assignments>
         <name>assignment_to_reason_code_list</name>
         <label>assignment to reason code list</label>
-        <locationX>925</locationX>
-        <locationY>3326</locationY>
+        <locationX>50</locationX>
+        <locationY>3518</locationY>
         <assignmentItems>
             <assignToReference>Reasoncodelist</assignToReference>
             <operator>Add</operator>
@@ -260,8 +260,8 @@
     <assignments>
         <name>assignment_to_reason_code_list_0</name>
         <label>assignment to reason code list</label>
-        <locationX>1103</locationX>
-        <locationY>7214</locationY>
+        <locationX>655</locationX>
+        <locationY>8654</locationY>
         <assignmentItems>
             <assignToReference>Reasoncodelist</assignToReference>
             <operator>Add</operator>
@@ -283,8 +283,8 @@
     <assignments>
         <name>Assignment_to_remove</name>
         <label>Assignment to remove</label>
-        <locationX>1123</locationX>
-        <locationY>2786</locationY>
+        <locationX>248</locationX>
+        <locationY>2978</locationY>
         <assignmentItems>
             <assignToReference>CodesPlusOther</assignToReference>
             <operator>Assign</operator>
@@ -299,8 +299,8 @@
     <assignments>
         <name>Assignment_to_remove_0</name>
         <label>Assignment to remove</label>
-        <locationX>1301</locationX>
-        <locationY>6674</locationY>
+        <locationX>853</locationX>
+        <locationY>8114</locationY>
         <assignmentItems>
             <assignToReference>CodesPlusOther</assignToReference>
             <operator>Assign</operator>
@@ -315,8 +315,8 @@
     <assignments>
         <name>assignment_to_single_variable</name>
         <label>assignment to single variable</label>
-        <locationX>925</locationX>
-        <locationY>3218</locationY>
+        <locationX>50</locationX>
+        <locationY>3410</locationY>
         <assignmentItems>
             <assignToReference>Reasoncodesingle.code__c</assignToReference>
             <operator>Assign</operator>
@@ -373,8 +373,8 @@
     <assignments>
         <name>assignment_to_single_variable_0</name>
         <label>assignment to single variable</label>
-        <locationX>1103</locationX>
-        <locationY>7106</locationY>
+        <locationX>655</locationX>
+        <locationY>8546</locationY>
         <assignmentItems>
             <assignToReference>Reasoncodesingle.code__c</assignToReference>
             <operator>Assign</operator>
@@ -431,8 +431,8 @@
     <assignments>
         <name>Test_0</name>
         <label>Test</label>
-        <locationX>1579</locationX>
-        <locationY>2378</locationY>
+        <locationX>721</locationX>
+        <locationY>2570</locationY>
         <assignmentItems>
             <assignToReference>CodesPlusOther</assignToReference>
             <operator>Add</operator>
@@ -447,8 +447,8 @@
     <assignments>
         <name>Test_0_0</name>
         <label>Test</label>
-        <locationX>1978</locationX>
-        <locationY>6266</locationY>
+        <locationX>1128</locationX>
+        <locationY>7814</locationY>
         <assignmentItems>
             <assignToReference>CodesPlusOther</assignToReference>
             <operator>Add</operator>
@@ -772,8 +772,8 @@
     <decisions>
         <name>Check_Notes_Before_Posting</name>
         <label>Check Notes Before Posting</label>
-        <locationX>1890</locationX>
-        <locationY>1022</locationY>
+        <locationX>1040</locationX>
+        <locationY>1106</locationY>
         <defaultConnector>
             <targetReference>Checks_Waiting_For_Deposit_Decision</targetReference>
         </defaultConnector>
@@ -797,8 +797,8 @@
     <decisions>
         <name>Checks_Waiting_For_Deposit_Decision</name>
         <label>Checks Waiting For Deposit</label>
-        <locationX>1890</locationX>
-        <locationY>1730</locationY>
+        <locationX>1040</locationX>
+        <locationY>1814</locationY>
         <defaultConnector>
             <targetReference>Previously_Posted_Check_Payments</targetReference>
         </defaultConnector>
@@ -859,8 +859,8 @@
     <decisions>
         <name>codesOutstanding</name>
         <label>codesOutstanding</label>
-        <locationX>325</locationX>
-        <locationY>10073</locationY>
+        <locationX>1282</locationX>
+        <locationY>11126</locationY>
         <defaultConnector>
             <targetReference>Update_Ready_for_Deposit_0_0</targetReference>
         </defaultConnector>
@@ -884,8 +884,8 @@
     <decisions>
         <name>codesOutstanding_0</name>
         <label>codesOutstanding</label>
-        <locationX>1299</locationX>
-        <locationY>4690</locationY>
+        <locationX>435</locationX>
+        <locationY>4742</locationY>
         <defaultConnector>
             <targetReference>Update_Ready_for_Deposit_0_0_0</targetReference>
         </defaultConnector>
@@ -909,8 +909,8 @@
     <decisions>
         <name>CodesSelected</name>
         <label>CodesSelected</label>
-        <locationX>1488</locationX>
-        <locationY>9530</locationY>
+        <locationX>1040</locationX>
+        <locationY>10910</locationY>
         <defaultConnector>
             <targetReference>getlinesOutstanding</targetReference>
         </defaultConnector>
@@ -934,8 +934,8 @@
     <decisions>
         <name>decision_for_code_selected_as_other</name>
         <label>decision for code selected  as other</label>
-        <locationX>1310</locationX>
-        <locationY>2678</locationY>
+        <locationX>435</locationX>
+        <locationY>2870</locationY>
         <defaultConnector>
             <targetReference>UpdateIncomingCheckPayment_Deposit_Number</targetReference>
         </defaultConnector>
@@ -959,8 +959,8 @@
     <decisions>
         <name>decision_for_code_selected_as_other_0</name>
         <label>decision for code selected  as other</label>
-        <locationX>1528</locationX>
-        <locationY>6519</locationY>
+        <locationX>1040</locationX>
+        <locationY>8006</locationY>
         <defaultConnector>
             <targetReference>get_custom_setting_for_incoming_check_payment</targetReference>
         </defaultConnector>
@@ -984,8 +984,8 @@
     <decisions>
         <name>decision_to_check_if_counter_is_equal</name>
         <label>decision to check if counter is equal</label>
-        <locationX>925</locationX>
-        <locationY>3434</locationY>
+        <locationX>50</locationX>
+        <locationY>3626</locationY>
         <defaultConnector>
             <targetReference>create_the_reason_code</targetReference>
         </defaultConnector>
@@ -1001,6 +1001,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>decision_to_number_of_code_to_added</targetReference>
             </connector>
             <label>check for counter</label>
@@ -1009,8 +1010,8 @@
     <decisions>
         <name>decision_to_check_if_counter_is_equal_0</name>
         <label>decision to check if counter is equal</label>
-        <locationX>1103</locationX>
-        <locationY>7322</locationY>
+        <locationX>655</locationX>
+        <locationY>8762</locationY>
         <defaultConnector>
             <targetReference>create_the_reason_code_0</targetReference>
         </defaultConnector>
@@ -1026,6 +1027,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>decision_to_number_of_code_to_added_0</targetReference>
             </connector>
             <label>check for counter</label>
@@ -1034,9 +1036,10 @@
     <decisions>
         <name>decision_to_check_new_selection</name>
         <label>decision to check new selection</label>
-        <locationX>1491</locationX>
-        <locationY>2570</locationY>
+        <locationX>633</locationX>
+        <locationY>2762</locationY>
         <defaultConnector>
+            <isGoTo>true</isGoTo>
             <targetReference>Codes1_0</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
@@ -1059,8 +1062,8 @@
     <decisions>
         <name>decision_to_number_of_code_to_added</name>
         <label>decision to number of code to added</label>
-        <locationX>1123</locationX>
-        <locationY>3002</locationY>
+        <locationX>248</locationX>
+        <locationY>3194</locationY>
         <defaultConnector>
             <targetReference>UpdateIncomingCheckPayment_Deposit_Number</targetReference>
         </defaultConnector>
@@ -1084,8 +1087,8 @@
     <decisions>
         <name>decision_to_number_of_code_to_added_0</name>
         <label>decision to number of code to added</label>
-        <locationX>1301</locationX>
-        <locationY>6890</locationY>
+        <locationX>853</locationX>
+        <locationY>8330</locationY>
         <defaultConnector>
             <targetReference>get_custom_setting_for_incoming_check_payment</targetReference>
         </defaultConnector>
@@ -1109,8 +1112,8 @@
     <decisions>
         <name>Payment_Amount_Types</name>
         <label>Payment Amount Types</label>
-        <locationX>1772</locationX>
-        <locationY>8414</locationY>
+        <locationX>1040</locationX>
+        <locationY>9662</locationY>
         <defaultConnector>
             <targetReference>Loop_Through_Lines_0_0_0_0</targetReference>
         </defaultConnector>
@@ -1149,8 +1152,8 @@
     <decisions>
         <name>Previously_Posted_Check_Payments</name>
         <label>Previously Posted Check Payments</label>
-        <locationX>1890</locationX>
-        <locationY>4610</locationY>
+        <locationX>1040</locationX>
+        <locationY>5942</locationY>
         <defaultConnector>
             <targetReference>getrelatedlines_0</targetReference>
         </defaultConnector>
@@ -1174,8 +1177,8 @@
     <decisions>
         <name>Proceed1</name>
         <label>Proceed</label>
-        <locationX>1667</locationX>
-        <locationY>4866</locationY>
+        <locationX>864</locationX>
+        <locationY>6158</locationY>
         <defaultConnector>
             <targetReference>create_new_CDL_0_0</targetReference>
         </defaultConnector>
@@ -1199,8 +1202,8 @@
     <decisions>
         <name>yes_to_continue</name>
         <label>yes to continue</label>
-        <locationX>1714</locationX>
-        <locationY>1238</locationY>
+        <locationX>864</locationX>
+        <locationY>1322</locationY>
         <defaultConnector>
             <targetReference>No_changes</targetReference>
         </defaultConnector>
@@ -1422,8 +1425,8 @@
     <loops>
         <name>Loop_over_selected_rows</name>
         <label>Loop over selected rows</label>
-        <locationX>1324</locationX>
-        <locationY>2332</locationY>
+        <locationX>633</locationX>
+        <locationY>2462</locationY>
         <collectionReference>CodeReason.selectedRows</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -1436,8 +1439,8 @@
     <loops>
         <name>Loop_over_selected_rows_0</name>
         <label>Loop over selected rows</label>
-        <locationX>1885</locationX>
-        <locationY>6168</locationY>
+        <locationX>1040</locationX>
+        <locationY>7706</locationY>
         <collectionReference>CodeReason01.selectedRows</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -1450,8 +1453,8 @@
     <loops>
         <name>Loop_Through_Lines_0</name>
         <label>Loop Through Lines</label>
-        <locationX>1772</locationX>
-        <locationY>8522</locationY>
+        <locationX>1040</locationX>
+        <locationY>9770</locationY>
         <assignNextValueToReference>objtemplines</assignNextValueToReference>
         <collectionReference>CollectionToBeUpdated</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1465,8 +1468,8 @@
     <loops>
         <name>Loop_Through_Lines_0_0</name>
         <label>Loop Through Lines</label>
-        <locationX>1890</locationX>
-        <locationY>5750</locationY>
+        <locationX>1040</locationX>
+        <locationY>7298</locationY>
         <assignNextValueToReference>objtemplines</assignNextValueToReference>
         <collectionReference>CollectionToBeUpdated</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1480,8 +1483,8 @@
     <loops>
         <name>Loop_Through_Lines_0_0_0</name>
         <label>Loop Through Lines</label>
-        <locationX>1468</locationX>
-        <locationY>8522</locationY>
+        <locationX>736</locationX>
+        <locationY>9770</locationY>
         <assignNextValueToReference>objtemplines</assignNextValueToReference>
         <collectionReference>CollectionToBeUpdated</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1495,8 +1498,8 @@
     <loops>
         <name>Loop_Through_Lines_0_0_0_0</name>
         <label>Loop Through Lines</label>
-        <locationX>2076</locationX>
-        <locationY>8522</locationY>
+        <locationX>1344</locationX>
+        <locationY>9770</locationY>
         <assignNextValueToReference>objtemplines</assignNextValueToReference>
         <collectionReference>CollectionToBeUpdated</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1510,8 +1513,8 @@
     <loops>
         <name>loopOutstanding</name>
         <label>loopOutstanding</label>
-        <locationX>1598</locationX>
-        <locationY>9852</locationY>
+        <locationX>1150</locationX>
+        <locationY>11234</locationY>
         <collectionReference>outstandingamountCOllection</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -1524,8 +1527,8 @@
     <loops>
         <name>loopOutstanding_0</name>
         <label>loopOutstanding</label>
-        <locationX>835</locationX>
-        <locationY>4391</locationY>
+        <locationX>303</locationX>
+        <locationY>4850</locationY>
         <collectionReference>outstandingamountCOllection</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -1544,7 +1547,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -1557,8 +1560,8 @@
     <recordCreates>
         <name>Create_Incoming_Check_2</name>
         <label>Create Incoming Check 2</label>
-        <locationX>1618</locationX>
-        <locationY>8007</locationY>
+        <locationX>1040</locationX>
+        <locationY>9338</locationY>
         <connector>
             <targetReference>assign_ICPid</targetReference>
         </connector>
@@ -1577,7 +1580,7 @@
         <inputAssignments>
             <field>Deposit__c</field>
             <value>
-                <stringValue>a0s2L000005Sw0PQAS</stringValue>
+                <elementReference>Get_EOR_Deposite_Record.Id</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1598,8 +1601,8 @@
     <recordCreates>
         <name>create_new_CDL</name>
         <label>create new CDL</label>
-        <locationX>1327</locationX>
-        <locationY>9196</locationY>
+        <locationX>1040</locationX>
+        <locationY>10370</locationY>
         <connector>
             <targetReference>eorFileName_0</targetReference>
         </connector>
@@ -1633,8 +1636,8 @@
     <recordCreates>
         <name>create_new_CDL_0</name>
         <label>create new CDL</label>
-        <locationX>1355</locationX>
-        <locationY>4060</locationY>
+        <locationX>435</locationX>
+        <locationY>4202</locationY>
         <connector>
             <targetReference>eorFileName</targetReference>
         </connector>
@@ -1668,8 +1671,8 @@
     <recordCreates>
         <name>create_new_CDL_0_0</name>
         <label>create new CDL</label>
-        <locationX>1964</locationX>
-        <locationY>4866</locationY>
+        <locationX>952</locationX>
+        <locationY>6266</locationY>
         <connector>
             <targetReference>eorFileName_0_0</targetReference>
         </connector>
@@ -1703,8 +1706,8 @@
     <recordCreates>
         <name>create_the_incoming_check_custom_setting</name>
         <label>create the incoming check custom setting</label>
-        <locationX>1434</locationX>
-        <locationY>8352</locationY>
+        <locationX>1040</locationX>
+        <locationY>9554</locationY>
         <connector>
             <targetReference>Payment_Amount_Types</targetReference>
         </connector>
@@ -1726,8 +1729,8 @@
     <recordCreates>
         <name>create_the_reason_code</name>
         <label>create the reason code</label>
-        <locationX>1057</locationX>
-        <locationY>3542</locationY>
+        <locationX>182</locationX>
+        <locationY>3734</locationY>
         <connector>
             <targetReference>UpdateIncomingCheckPayment_Deposit_Number</targetReference>
         </connector>
@@ -1736,8 +1739,8 @@
     <recordCreates>
         <name>create_the_reason_code_0</name>
         <label>create the reason code</label>
-        <locationX>1235</locationX>
-        <locationY>7430</locationY>
+        <locationX>787</locationX>
+        <locationY>8870</locationY>
         <connector>
             <targetReference>get_custom_setting_for_incoming_check_payment</targetReference>
         </connector>
@@ -1746,8 +1749,8 @@
     <recordCreates>
         <name>CreateLinesPmt_0_0_0_0_0</name>
         <label>CreateLinesPmt</label>
-        <locationX>1394</locationX>
-        <locationY>9029</locationY>
+        <locationX>1040</locationX>
+        <locationY>10262</locationY>
         <connector>
             <targetReference>create_new_CDL</targetReference>
         </connector>
@@ -1756,8 +1759,8 @@
     <recordCreates>
         <name>CreateTask</name>
         <label>CreateTask</label>
-        <locationX>1598</locationX>
-        <locationY>10260</locationY>
+        <locationX>1150</locationX>
+        <locationY>11642</locationY>
         <connector>
             <targetReference>Update_Ready_for_Deposit_0_0</targetReference>
         </connector>
@@ -1815,8 +1818,8 @@
     <recordCreates>
         <name>CreateTask_0</name>
         <label>CreateTask</label>
-        <locationX>625</locationX>
-        <locationY>4964</locationY>
+        <locationX>303</locationX>
+        <locationY>5258</locationY>
         <connector>
             <targetReference>Update_Ready_for_Deposit_0_0_0_0</targetReference>
         </connector>
@@ -1874,8 +1877,8 @@
     <recordLookups>
         <name>custom_setting_incoming_check_payment_to_delete</name>
         <label>custom setting incoming check payment  to delete</label>
-        <locationX>1881</locationX>
-        <locationY>864</locationY>
+        <locationX>1040</locationX>
+        <locationY>998</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Check_Notes_Before_Posting</targetReference>
@@ -1889,8 +1892,8 @@
     <recordLookups>
         <name>get_all_reason_code</name>
         <label>get all reason code</label>
-        <locationX>1890</locationX>
-        <locationY>290</locationY>
+        <locationX>1040</locationX>
+        <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>get_arn_payor</targetReference>
@@ -1912,8 +1915,8 @@
     <recordLookups>
         <name>get_arn_payor</name>
         <label>get arn payor</label>
-        <locationX>1890</locationX>
-        <locationY>398</locationY>
+        <locationX>1040</locationX>
+        <locationY>350</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>get_Posting_Task</targetReference>
@@ -1933,8 +1936,8 @@
     <recordLookups>
         <name>get_boost_patient_claim</name>
         <label>get boost patient claim</label>
-        <locationX>1895</locationX>
-        <locationY>593</locationY>
+        <locationX>1040</locationX>
+        <locationY>566</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>get_Queue</targetReference>
@@ -1952,10 +1955,31 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
+        <name>Get_Check_Deposite_Record</name>
+        <label>Get Check Deposite Record</label>
+        <locationX>1040</locationX>
+        <locationY>782</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_EOR_Deposite_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Deposit_ID__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>CHECK</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Deposit__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>get_custom_setting_for_incoming_check_payment</name>
         <label>get custom setting for incoming check payment</label>
-        <locationX>1488</locationX>
-        <locationY>7790</locationY>
+        <locationX>1040</locationX>
+        <locationY>9230</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Create_Incoming_Check_2</targetReference>
@@ -1982,10 +2006,31 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
+        <name>Get_EOR_Deposite_Record</name>
+        <label>Get EOR Deposite Record</label>
+        <locationX>1040</locationX>
+        <locationY>890</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>custom_setting_incoming_check_payment_to_delete</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Deposit_ID__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>EOR</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Deposit__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>get_last_incoming_check_payment</name>
         <label>get  last incoming check payment</label>
-        <locationX>2112</locationX>
-        <locationY>5597</locationY>
+        <locationX>1040</locationX>
+        <locationY>7190</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_Through_Lines_0_0</targetReference>
@@ -2002,7 +2047,7 @@
             <field>Deposit__c</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>a0s2L000005Sw0PQAS</stringValue>
+                <elementReference>Get_EOR_Deposite_Record.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -2014,8 +2059,8 @@
     <recordLookups>
         <name>get_Posting_Task</name>
         <label>get Posting Task</label>
-        <locationX>1830</locationX>
-        <locationY>505</locationY>
+        <locationX>1040</locationX>
+        <locationY>458</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>get_boost_patient_claim</targetReference>
@@ -2035,11 +2080,11 @@
     <recordLookups>
         <name>get_Queue</name>
         <label>get Queue</label>
-        <locationX>1891</locationX>
-        <locationY>711</locationY>
+        <locationX>1040</locationX>
+        <locationY>674</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>custom_setting_incoming_check_payment_to_delete</targetReference>
+            <targetReference>Get_Check_Deposite_Record</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -2063,8 +2108,8 @@
     <recordLookups>
         <name>Get_Records</name>
         <label>Get Records</label>
-        <locationX>1890</locationX>
-        <locationY>182</locationY>
+        <locationX>1040</locationX>
+        <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>get_all_reason_code</targetReference>
@@ -2084,8 +2129,8 @@
     <recordLookups>
         <name>Get_Related_Incoming_Check_Payments_with_Deposit</name>
         <label>Get Related Incoming Check Payments with Deposit</label>
-        <locationX>1491</locationX>
-        <locationY>1842</locationY>
+        <locationX>633</locationX>
+        <locationY>1922</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Deposit_Information_0</targetReference>
@@ -2102,7 +2147,7 @@
             <field>Deposit__c</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>a0s2L000005SsDAQA0</stringValue>
+                <elementReference>Get_Check_Deposite_Record.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
@@ -2112,8 +2157,8 @@
     <recordLookups>
         <name>getCheckIDSelection</name>
         <label>getCheckIDSelection</label>
-        <locationX>1301</locationX>
-        <locationY>1990</locationY>
+        <locationX>633</locationX>
+        <locationY>2138</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>assign_ICPid_0</targetReference>
@@ -2139,8 +2184,8 @@
     <recordLookups>
         <name>getlinescodesneeded</name>
         <label>getlinescodesneeded</label>
-        <locationX>1873</locationX>
-        <locationY>9560</locationY>
+        <locationX>1040</locationX>
+        <locationY>10802</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>CodesSelected</targetReference>
@@ -2169,8 +2214,8 @@
     <recordLookups>
         <name>getlinesOutstanding</name>
         <label>getlinesOutstanding</label>
-        <locationX>50</locationX>
-        <locationY>9750</locationY>
+        <locationX>1282</locationX>
+        <locationY>11018</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>codesOutstanding</targetReference>
@@ -2206,8 +2251,8 @@
     <recordLookups>
         <name>getlinesOutstanding_0</name>
         <label>getlinesOutstanding</label>
-        <locationX>1357</locationX>
-        <locationY>4544</locationY>
+        <locationX>435</locationX>
+        <locationY>4634</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>codesOutstanding_0</targetReference>
@@ -2243,8 +2288,8 @@
     <recordLookups>
         <name>getrelatedlines_0</name>
         <label>getrelatedlines</label>
-        <locationX>1890</locationX>
-        <locationY>5534</locationY>
+        <locationX>1040</locationX>
+        <locationY>7082</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>get_last_incoming_check_payment</targetReference>
@@ -2266,8 +2311,8 @@
     <recordUpdates>
         <name>eorFileName</name>
         <label>eorFileName</label>
-        <locationX>1486</locationX>
-        <locationY>4115</locationY>
+        <locationX>435</locationX>
+        <locationY>4310</locationY>
         <connector>
             <targetReference>Update_Task_File_Container</targetReference>
         </connector>
@@ -2290,8 +2335,8 @@
     <recordUpdates>
         <name>eorFileName_0</name>
         <label>eorFileName</label>
-        <locationX>1449</locationX>
-        <locationY>9168</locationY>
+        <locationX>1040</locationX>
+        <locationY>10478</locationY>
         <connector>
             <targetReference>update_task_file_container0</targetReference>
         </connector>
@@ -2314,8 +2359,8 @@
     <recordUpdates>
         <name>eorFileName_0_0</name>
         <label>eorFileName</label>
-        <locationX>2090</locationX>
-        <locationY>4875</locationY>
+        <locationX>952</locationX>
+        <locationY>6374</locationY>
         <connector>
             <targetReference>Update_Task_File_Container_0</targetReference>
         </connector>
@@ -2338,8 +2383,8 @@
     <recordUpdates>
         <name>Update_Posting_Task</name>
         <label>Update Posting Task</label>
-        <locationX>338</locationX>
-        <locationY>5183</locationY>
+        <locationX>303</locationX>
+        <locationY>5474</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -2365,8 +2410,8 @@
     <recordUpdates>
         <name>Update_Posting_Task0</name>
         <label>Update Posting Task</label>
-        <locationX>1603</locationX>
-        <locationY>5308</locationY>
+        <locationX>567</locationX>
+        <locationY>4958</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -2392,8 +2437,8 @@
     <recordUpdates>
         <name>Update_Posting_Task0_0</name>
         <label>Update Posting Task</label>
-        <locationX>2451</locationX>
-        <locationY>4875</locationY>
+        <locationX>952</locationX>
+        <locationY>6698</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -2419,8 +2464,8 @@
     <recordUpdates>
         <name>Update_Ready_for_Deposit_0_0</name>
         <label>Update Ready for Deposit</label>
-        <locationX>1715</locationX>
-        <locationY>10483</locationY>
+        <locationX>1282</locationX>
+        <locationY>11834</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -2458,8 +2503,8 @@
     <recordUpdates>
         <name>Update_Ready_for_Deposit_0_0_0</name>
         <label>Update Ready for Deposit</label>
-        <locationX>1596</locationX>
-        <locationY>5152</locationY>
+        <locationX>567</locationX>
+        <locationY>4850</locationY>
         <connector>
             <targetReference>Update_Posting_Task0</targetReference>
         </connector>
@@ -2485,8 +2530,8 @@
     <recordUpdates>
         <name>Update_Ready_for_Deposit_0_0_0_0</name>
         <label>Update Ready for Deposit</label>
-        <locationX>534</locationX>
-        <locationY>5105</locationY>
+        <locationX>303</locationX>
+        <locationY>5366</locationY>
         <connector>
             <targetReference>Update_Posting_Task</targetReference>
         </connector>
@@ -2515,8 +2560,8 @@
     <recordUpdates>
         <name>Update_Task_File_Container</name>
         <label>Update Task File Container</label>
-        <locationX>1634</locationX>
-        <locationY>4114</locationY>
+        <locationX>435</locationX>
+        <locationY>4418</locationY>
         <connector>
             <targetReference>Copy_2_of_Enter_Lines</targetReference>
         </connector>
@@ -2539,8 +2584,8 @@
     <recordUpdates>
         <name>update_task_file_container0</name>
         <label>update task file container</label>
-        <locationX>1569</locationX>
-        <locationY>9164</locationY>
+        <locationX>1040</locationX>
+        <locationY>10586</locationY>
         <connector>
             <targetReference>Enter_Lines_0</targetReference>
         </connector>
@@ -2563,8 +2608,8 @@
     <recordUpdates>
         <name>Update_Task_File_Container_0</name>
         <label>Update Task File Container</label>
-        <locationX>2233</locationX>
-        <locationY>4894</locationY>
+        <locationX>952</locationX>
+        <locationY>6482</locationY>
         <connector>
             <targetReference>Complete1</targetReference>
         </connector>
@@ -2587,8 +2632,8 @@
     <recordUpdates>
         <name>UpdateIncomingCheckPayment_Deposit_Number</name>
         <label>UpdateCOdes</label>
-        <locationX>1310</locationX>
-        <locationY>3904</locationY>
+        <locationX>435</locationX>
+        <locationY>4094</locationY>
         <connector>
             <targetReference>create_new_CDL_0</targetReference>
         </connector>
@@ -2611,8 +2656,8 @@
     <screens>
         <name>Check_Claim_Detailed_Notes</name>
         <label>Check Claim Detailed Notes</label>
-        <locationX>1714</locationX>
-        <locationY>1130</locationY>
+        <locationX>864</locationX>
+        <locationY>1214</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -2714,8 +2759,8 @@
     <screens>
         <name>Codes1</name>
         <label>Codes</label>
-        <locationX>1890</locationX>
-        <locationY>6052</locationY>
+        <locationX>1040</locationX>
+        <locationY>7598</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -2910,8 +2955,8 @@
     <screens>
         <name>Codes1_0</name>
         <label>Codes</label>
-        <locationX>1489</locationX>
-        <locationY>2169</locationY>
+        <locationX>633</locationX>
+        <locationY>2354</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3133,8 +3178,8 @@
     <screens>
         <name>Complete1</name>
         <label>Complete</label>
-        <locationX>2351</locationX>
-        <locationY>4876</locationY>
+        <locationX>952</locationX>
+        <locationY>6590</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -3160,8 +3205,8 @@
     <screens>
         <name>Copy_2_of_Enter_Lines</name>
         <label>Copy 2 of Enter Lines</label>
-        <locationX>1589</locationX>
-        <locationY>4542</locationY>
+        <locationX>435</locationX>
+        <locationY>4526</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3246,8 +3291,8 @@
     <screens>
         <name>Deposit_Information_0</name>
         <label>Deposit Information</label>
-        <locationX>1627</locationX>
-        <locationY>2068</locationY>
+        <locationX>633</locationX>
+        <locationY>2030</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3349,8 +3394,8 @@
     <screens>
         <name>Enter_Lines_0</name>
         <label>Enter Lines</label>
-        <locationX>1532</locationX>
-        <locationY>9344</locationY>
+        <locationX>1040</locationX>
+        <locationY>10694</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -3434,12 +3479,13 @@
     <screens>
         <name>Enter_Lines_0_0_0</name>
         <label>Enter Lines</label>
-        <locationX>1246</locationX>
-        <locationY>9638</locationY>
+        <locationX>798</locationX>
+        <locationY>11018</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
+            <isGoTo>true</isGoTo>
             <targetReference>CodesSelected</targetReference>
         </connector>
         <fields>
@@ -3532,8 +3578,8 @@
     <screens>
         <name>Input_number</name>
         <label>Input number</label>
-        <locationX>1123</locationX>
-        <locationY>2894</locationY>
+        <locationX>248</locationX>
+        <locationY>3086</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3622,8 +3668,8 @@
     <screens>
         <name>Input_number_0</name>
         <label>Input number</label>
-        <locationX>1299</locationX>
-        <locationY>6782</locationY>
+        <locationX>853</locationX>
+        <locationY>8222</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3712,8 +3758,8 @@
     <screens>
         <name>New_code_add</name>
         <label>New code add</label>
-        <locationX>925</locationX>
-        <locationY>3110</locationY>
+        <locationX>50</locationX>
+        <locationY>3302</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3832,8 +3878,8 @@
     <screens>
         <name>New_code_add_0</name>
         <label>New code add</label>
-        <locationX>1103</locationX>
-        <locationY>6998</locationY>
+        <locationX>655</locationX>
+        <locationY>8438</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3952,8 +3998,8 @@
     <screens>
         <name>No_changes</name>
         <label>No changes</label>
-        <locationX>1802</locationX>
-        <locationY>1346</locationY>
+        <locationX>952</locationX>
+        <locationY>1430</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -3976,8 +4022,8 @@
     <screens>
         <name>Task_Outstanding</name>
         <label>Task Outstanding</label>
-        <locationX>1593</locationX>
-        <locationY>10155</locationY>
+        <locationX>1150</locationX>
+        <locationY>11534</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4028,8 +4074,8 @@
     <screens>
         <name>Task_Outstanding_0</name>
         <label>Task Outstanding</label>
-        <locationX>836</locationX>
-        <locationY>5047</locationY>
+        <locationX>303</locationX>
+        <locationY>5150</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4080,8 +4126,8 @@
     <screens>
         <name>ZeroOutstanding1</name>
         <label>ZeroOutstanding</label>
-        <locationX>1686</locationX>
-        <locationY>4603</locationY>
+        <locationX>864</locationX>
+        <locationY>6050</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4182,8 +4228,8 @@
         <showHeader>false</showHeader>
     </screens>
     <start>
-        <locationX>1764</locationX>
-        <locationY>48</locationY>
+        <locationX>914</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Get_Records</targetReference>
         </connector>
