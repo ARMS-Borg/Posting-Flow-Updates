@@ -5,7 +5,7 @@
     <assignments>
         <name>Assign_Check</name>
         <label>Assign Check</label>
-        <locationX>3059</locationX>
+        <locationX>3103</locationX>
         <locationY>1862</locationY>
         <assignmentItems>
             <assignToReference>maincheck</assignToReference>
@@ -22,7 +22,7 @@
     <assignments>
         <name>assign_ICPid</name>
         <label>assign ICPid</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2594</locationY>
         <assignmentItems>
             <assignToReference>ICPid_main</assignToReference>
@@ -38,7 +38,7 @@
     <assignments>
         <name>assign_ICPid_EOR</name>
         <label>assign ICPid EOR</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>4142</locationY>
         <assignmentItems>
             <assignToReference>ICPid_main</assignToReference>
@@ -54,7 +54,7 @@
     <assignments>
         <name>assign_Incoming_check_id</name>
         <label>assign Incoming check id</label>
-        <locationX>3015</locationX>
+        <locationX>3059</locationX>
         <locationY>4466</locationY>
         <assignmentItems>
             <assignToReference>ICid_main</assignToReference>
@@ -70,7 +70,7 @@
     <assignments>
         <name>assign_main_check</name>
         <label>assign main check</label>
-        <locationX>2751</locationX>
+        <locationX>2795</locationX>
         <locationY>4682</locationY>
         <assignmentItems>
             <assignToReference>maincheck</assignToReference>
@@ -86,7 +86,7 @@
     <assignments>
         <name>Assign_New_File_Type</name>
         <label>Assign New File Type</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>1646</locationY>
         <assignmentItems>
             <assignToReference>UpdatedFileType</assignToReference>
@@ -102,7 +102,7 @@
     <assignments>
         <name>assign_next_posting_type</name>
         <label>assign next posting type</label>
-        <locationX>2223</locationX>
+        <locationX>2267</locationX>
         <locationY>4466</locationY>
         <assignmentItems>
             <assignToReference>varSelectedChoice</assignToReference>
@@ -134,7 +134,7 @@
     <assignments>
         <name>Assign_selected_next_step</name>
         <label>Assign selected next step</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2810</locationY>
         <assignmentItems>
             <assignToReference>varSelectedChoice</assignToReference>
@@ -150,7 +150,7 @@
     <assignments>
         <name>assign_selection_type</name>
         <label>assign selection type</label>
-        <locationX>3279</locationX>
+        <locationX>3323</locationX>
         <locationY>4790</locationY>
         <assignmentItems>
             <assignToReference>varSelectedChoice</assignToReference>
@@ -198,7 +198,7 @@
     <assignments>
         <name>assignRecord_0_0</name>
         <label>assignRecord</label>
-        <locationX>2707</locationX>
+        <locationX>2751</locationX>
         <locationY>3842</locationY>
         <assignmentItems>
             <assignToReference>BoostSelectionIDText</assignToReference>
@@ -214,7 +214,7 @@
     <assignments>
         <name>assignRecord_0_0_0</name>
         <label>assignRecord</label>
-        <locationX>2399</locationX>
+        <locationX>2443</locationX>
         <locationY>2294</locationY>
         <assignmentItems>
             <assignToReference>BoostSelectionIDText</assignToReference>
@@ -230,7 +230,7 @@
     <assignments>
         <name>Copy_1_of_assign_main_check</name>
         <label>Copy 1 of assign main check</label>
-        <locationX>1651</locationX>
+        <locationX>1607</locationX>
         <locationY>458</locationY>
         <assignmentItems>
             <assignToReference>maincheck</assignToReference>
@@ -240,7 +240,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>GetCheck_incoming_check_rec</targetReference>
+            <targetReference>Copy_1_of_get_file_from_task</targetReference>
         </connector>
     </assignments>
     <choices>
@@ -625,7 +625,7 @@
     <decisions>
         <name>Balanced_Check</name>
         <label>Balanced Check</label>
-        <locationX>3015</locationX>
+        <locationX>3059</locationX>
         <locationY>4574</locationY>
         <defaultConnector>
             <targetReference>Copy_1_of_Done</targetReference>
@@ -1006,7 +1006,7 @@
     <decisions>
         <name>confirm_file_attachment</name>
         <label>confirm file attachment</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>1430</locationY>
         <defaultConnector>
             <targetReference>file_error</targetReference>
@@ -1026,6 +1026,31 @@
                 <targetReference>Review_file</targetReference>
             </connector>
             <label>file attached</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Confirm_file_attachment_01</name>
+        <label>Confirm file attachment</label>
+        <locationX>1607</locationX>
+        <locationY>674</locationY>
+        <defaultConnector>
+            <targetReference>Copy_1_of_file_error</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>File_attached_01</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Copy_1_of_get_file_from_task</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>GetCheck_incoming_check_rec</targetReference>
+            </connector>
+            <label>File attached</label>
         </rules>
     </decisions>
     <decisions>
@@ -1057,7 +1082,7 @@
         <description>If the output check from the EOR only Subflow is empty, that means no check was matched to the EOR.</description>
         <name>Deposit_not_equal_to_EOR_Only</name>
         <label>Deposit not equal to EOR Only</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>4250</locationY>
         <defaultConnector>
             <targetReference>GetCheck_0_0</targetReference>
@@ -1082,7 +1107,7 @@
     <decisions>
         <name>EOR_or_denial</name>
         <label>EOR or denial?</label>
-        <locationX>2223</locationX>
+        <locationX>2267</locationX>
         <locationY>4682</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -1267,7 +1292,7 @@
     <decisions>
         <name>Post_next</name>
         <label>Post next?</label>
-        <locationX>3279</locationX>
+        <locationX>3323</locationX>
         <locationY>5006</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -1306,7 +1331,7 @@
     <decisions>
         <name>post_next1</name>
         <label>post next?</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>3026</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -1344,7 +1369,7 @@
     <decisions>
         <name>Review_Task</name>
         <label>Review Task</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>1754</locationY>
         <defaultConnector>
             <targetReference>Task_Type_error</targetReference>
@@ -1666,7 +1691,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <loops>
         <name>loopCollection_0_0</name>
         <label>loopCollection</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>3734</locationY>
         <collectionReference>SelectBills_0.outputSelectedRows</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1680,7 +1705,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <loops>
         <name>loopCollection_0_0_0</name>
         <label>loopCollection</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2186</locationY>
         <collectionReference>SelectBills_0_0.outputSelectedRows</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1972,6 +1997,34 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
     <recordLookups>
+        <name>Copy_1_of_get_file_from_task</name>
+        <label>get file from task</label>
+        <locationX>1607</locationX>
+        <locationY>566</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Confirm_file_attachment_01</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LinkedEntityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>get_Posting_task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>ShareType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>V</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ContentDocumentLink</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>get_ARN_Queue</name>
         <label>get ARN Queue</label>
         <locationX>2861</locationX>
@@ -2002,7 +2055,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>Get_Deposit_Approved</name>
         <label>Get Deposit Approval</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>890</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2023,7 +2076,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>Get_Deposit_Checks_waiting</name>
         <label>Get Deposit Checks waiting</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>674</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2044,7 +2097,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>Get_Deposit_Deductible</name>
         <label>Get Deposit Deductible</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>998</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2065,7 +2118,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>Get_Deposit_EORS_waiting_for_checks</name>
         <label>Get Deposit EORS waiting for checks</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>566</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2086,7 +2139,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>Get_Deposit_Processing</name>
         <label>Get Deposit Processing</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>782</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2107,7 +2160,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>get_file_from_task</name>
         <label>get file from task</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>1106</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2135,7 +2188,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>get_Name_Change_Queue</name>
         <label>get Name Change Queue</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>1214</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2198,7 +2251,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>get_Task_queues</name>
         <label>get Task queues</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>458</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2301,7 +2354,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>GetCheck_0_0</name>
         <label>GetCheck</label>
-        <locationX>3015</locationX>
+        <locationX>3059</locationX>
         <locationY>4358</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2353,6 +2406,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
         <queriedFields>Deductible__c</queriedFields>
         <queriedFields>Name</queriedFields>
         <queriedFields>Reconcile__c</queriedFields>
+        <queriedFields>Check_Date__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -2703,7 +2757,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>getRecords_0_0_0_0</name>
         <label>getRecords</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>3518</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2744,7 +2798,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordLookups>
         <name>getRecords_0_0_0_0_0_0_0</name>
         <label>getRecords</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>1970</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -2870,7 +2924,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <recordUpdates>
         <name>start_posting_timer</name>
         <label>start posting timer</label>
-        <locationX>3213</locationX>
+        <locationX>3257</locationX>
         <locationY>1322</locationY>
         <connector>
             <targetReference>confirm_file_attachment</targetReference>
@@ -3803,7 +3857,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>BillSelection_0_0_0_0</name>
         <label>BillSelection</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>3626</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -3985,7 +4039,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>BillSelection_0_0_0_0_0</name>
         <label>BillSelection</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2078</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -4286,7 +4340,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Copy_1_of_Done</name>
         <label>Copy 1 of Done</label>
-        <locationX>3279</locationX>
+        <locationX>3323</locationX>
         <locationY>4682</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -4413,6 +4467,30 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
         <showHeader>true</showHeader>
     </screens>
     <screens>
+        <name>Copy_1_of_file_error</name>
+        <label>file error</label>
+        <locationX>1695</locationX>
+        <locationY>782</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Copy_1_of_nofileattached</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 18px; color: rgb(244, 114, 27);&quot;&gt;Oops! No file was found. &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 18px; color: rgb(244, 114, 27);&quot;&gt;Please review the posting task  for the file, and report to your manager if an error has occurred. &lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
         <name>Deductible_Notice</name>
         <label>Deductible Notice</label>
         <locationX>2366</locationX>
@@ -4483,7 +4561,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Denial_Done</name>
         <label>Denial Done</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2702</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -4680,7 +4758,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Done</name>
         <label>Done</label>
-        <locationX>2223</locationX>
+        <locationX>2267</locationX>
         <locationY>4358</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -4809,7 +4887,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Empty_Task_Screen</name>
         <label>Empty Task Screen</label>
-        <locationX>4071</locationX>
+        <locationX>4115</locationX>
         <locationY>458</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -5242,7 +5320,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Enter_Information_0_0</name>
         <label>Enter Patient Name Information</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>3410</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -5343,7 +5421,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Enter_Information_0_0_0</name>
         <label>Enter Patient Name Information</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>1862</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -5444,7 +5522,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>file_error</name>
         <label>file error</label>
-        <locationX>3807</locationX>
+        <locationX>3851</locationX>
         <locationY>1538</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -5631,7 +5709,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Review_file</name>
         <label>Review file</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>1538</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -5787,7 +5865,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <screens>
         <name>Task_Type_error</name>
         <label>Task Type error</label>
-        <locationX>3323</locationX>
+        <locationX>3367</locationX>
         <locationY>1862</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -5939,7 +6017,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <subflows>
         <name>Continue_Posting_Task_Creation_Subflow</name>
         <label>Continue Posting Task Creation Subflow</label>
-        <locationX>2223</locationX>
+        <locationX>2267</locationX>
         <locationY>4574</locationY>
         <connector>
             <targetReference>EOR_or_denial</targetReference>
@@ -5975,7 +6053,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <subflows>
         <name>Continue_Posting_Task_Creation_Subflow_AB</name>
         <label>Continue Posting Task Creation Subflow - AB</label>
-        <locationX>3279</locationX>
+        <locationX>3323</locationX>
         <locationY>4898</locationY>
         <connector>
             <targetReference>Post_next</targetReference>
@@ -6047,7 +6125,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <subflows>
         <name>Continue_Posting_Task_Creation_Subflow_AB1</name>
         <label>Continue Posting Task Creation Subflow - AB</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2918</locationY>
         <connector>
             <targetReference>post_next1</targetReference>
@@ -6083,7 +6161,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <subflows>
         <name>Denials_2026</name>
         <label>Denials 2026</label>
-        <locationX>2311</locationX>
+        <locationX>2355</locationX>
         <locationY>2486</locationY>
         <connector>
             <targetReference>assign_ICPid</targetReference>
@@ -6159,7 +6237,7 @@ FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_260})
     <subflows>
         <name>EOR_Only_Subflow_2026</name>
         <label>EOR Only Subflow 2026</label>
-        <locationX>2619</locationX>
+        <locationX>2663</locationX>
         <locationY>4034</locationY>
         <connector>
             <targetReference>assign_ICPid_EOR</targetReference>
