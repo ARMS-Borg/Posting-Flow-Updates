@@ -2362,7 +2362,8 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Added decision elements after sub-flow elements, that have other elements after it.</description>
+    <description>Added decision elements after sub-flow elements, that have other elements after it.
+Added checkbox for the outstanding</description>
     <dynamicChoiceSets>
         <name>ARNStatus</name>
         <dataType>Picklist</dataType>
