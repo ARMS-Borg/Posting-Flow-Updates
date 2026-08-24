@@ -24,8 +24,8 @@
             ),
             IF(
                 Opportunity__r.Date_to_Use_for_Commission_Calculation__c &lt; DATE(2025,11,1),
-                Amount__c * 0.05,
-                Amount__c * 0.10
+                Amount__c * 0.10,
+                Amount__c * 0.05
             ),
             0
         )
