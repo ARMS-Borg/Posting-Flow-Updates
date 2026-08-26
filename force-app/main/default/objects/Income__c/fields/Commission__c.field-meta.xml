@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commission__c</fullName>
+    <formula>IF(
+    AND(
+        NOT(ISBLANK(Opportunity__r.Date_to_Use_for_Commission_Calculation__c)),
+        Date__c &gt;= Opportunity__r.Date_to_Use_for_Commission_Calculation__c,
+        Date__c &lt;= End_Commision_Date__c
+    ),
+    IF(
+        AND(
+            Opportunity__r.Owner.FirstName = &quot;Daniel&quot;,
+            Opportunity__r.Owner.LastName = &quot;Brodie&quot;
+        ),
+        IF(
+            Opportunity__r.Date_to_Use_for_Commission_Calculation__c &lt; DATE(2025,11,1),
+            Amount__c * 0.10,
+            Amount__c * 0.025
+        ),
+        IF(
+            AND(
+                Opportunity__r.Owner.FirstName = &quot;Jakob&quot;,
+                Opportunity__r.Owner.LastName = &quot;Karlsson&quot;
+            ),
+            IF(
+                Opportunity__r.Date_to_Use_for_Commission_Calculation__c &lt; DATE(2025,11,1),
+                Amount__c * 0.10,
+                Amount__c * 0.05
+            ),
+            0
+        )
+    ),
+    0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Commission</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
